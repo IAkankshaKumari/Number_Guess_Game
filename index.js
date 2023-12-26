@@ -7,7 +7,7 @@ const input = document.querySelector("input"),
 input.focus();
 
 let randomNum = Math.floor(Math.random() * 100);
-chance = 10;
+chance = 7;
 
 
 checkButton.addEventListener("click", () => {

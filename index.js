@@ -27,12 +27,12 @@ checkButton.addEventListener("click", () => {
    
   } else if (inputValue > randomNum && inputValue <= 100) {
     
-    [guess.textContent, remainChances.textContent] = ["TRY A SMALLER NUMBER 🥲", chance];
+    [guess.textContent, remainChances.textContent] = ["Try a SMALLER number 🥲", chance];
     guess.style.color = "white";
     
   } else if (inputValue < randomNum && inputValue > 0) {
     
-    [guess.textContent, remainChances.textContent] = ["TRY A LARGER NUMBER 🥲", chance];
+    [guess.textContent, remainChances.textContent] = ["Try A LARGER number 🥲", chance];
     guess.style.color = "white";
    
   } else {
